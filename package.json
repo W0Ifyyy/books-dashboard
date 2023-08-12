@@ -1,0 +1,10 @@
+{
+  "name": "mdb-standard-app",
+  "version": "6.4.0",
+  "homepage": "https://mdbootstrap.com/docs/standard/",
+  "license": "SEE LICENSE IN <License.pdf>",
+  "dependencies": {
+    "git": "^0.1.5",
+    "rickmortyapi": "^2.3.0"
+  }
+}

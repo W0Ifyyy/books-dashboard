@@ -1,0 +1,38 @@
+.bg-darkM {
+  background-color: hsl(180, 100%, 20%);
+}
+
+.bg-darkMh {
+  background-color: hsl(180, 100%, 25%);
+}
+
+.bg-darkMl {
+  background-color: hsl(180, 100%, 99%);
+}
+
+.text-dcyan {
+  color: hsl(180, 100%, 30%);
+}
+
+.text-gray {
+  color: gray;
+}
+
+.t-0 {
+  background-color: hsl(180, 100%, 93%);
+  transition: transform 0.2s;
+}
+.t-1 {
+  background-color: hsl(180, 100%, 95%);
+  transition: transform 0.2s;
+}
+.t-2 {
+  background-color: hsl(180, 100%, 97%);
+  transition: transform 0.2s;
+}
+
+.t-0:hover,
+.t-1:hover,
+.t-2:hover {
+  transform: scale(1.1);
+}

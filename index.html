@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Material Design for Bootstrap</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    />
+    <!-- MDB ESSENTIAL -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- MDB PLUGINS -->
+    <link rel="stylesheet" href="plugins/css/all.min.css" />
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <!-- Start your project here-->
+    <div class="container-fluid p-0 m-0 bg-darkMl">
+      <nav class="navbar navbar-expand-lg navbar-light bg-darkMh">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+          <!-- Toggler -->
+          <button
+            data-mdb-toggle="sidenav"
+            data-mdb-target="#sidenav-1"
+            class="btn shadow-0 p-0 d-block text-white ms-3"
+            aria-controls="#sidenav-1"
+            aria-haspopup="true"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <!-- Toggler -->
+
+          <!-- Collapsible wrapper -->
+          <div
+            class="collapse navbar-collapse"
+            id="navbarSupportedContent"
+          ></div>
+          <!-- Collapsible wrapper -->
+
+          <!-- Right elements -->
+          <div class="d-flex align-items-center">
+            <!-- Avatar -->
+            <div class="dropdown">
+              <a
+                class="dropdown-toggle d-flex align-items-center hidden-arrow"
+                href="#"
+                id="navbarDropdownMenuAvatar"
+                role="button"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                  class="rounded-circle"
+                  height="25"
+                  alt="Black and White Portrait of a Man"
+                  loading="lazy"
+                />
+              </a>
+              <ul
+                class="dropdown-menu dropdown-menu-end"
+                aria-labelledby="navbarDropdownMenuAvatar"
+              >
+                <li>
+                  <a class="dropdown-item" href="#">Mój profil</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Ustawienia</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://wolnelektury.pl/"
+                    >Wyloguj</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Right elements -->
+        </div>
+        <!-- Container wrapper -->
+      </nav>
+      <!-- Navbar -->
+      <!-- Sidenav -->
+      <nav id="sidenav-1" class="sidenav" data-mdb-hidden="true">
+        <div class="mt-5">
+          <p class="text-center text-dcyan">
+            <i class="fas fa-book fa-5x"></i>
+          </p>
+          <p class="text-center">
+            <span class="text-dcyan"><b>Nasze</b></span> <span>Lektury</span>
+          </p>
+        </div>
+        <hr />
+        <ul class="sidenav-menu">
+          <li class="sidenav-item">
+            <a
+              class="sidenav-link"
+              href="https://wolnelektury.pl/katalog/nowe/"
+            >
+              <i class="far fa-plus fa-fw me-3"></i><span>Nowości</span></a
+            >
+          </li>
+          <li class="sidenav-item">
+            <a class="sidenav-link" href="https://fundacja.wolnelektury.pl/">
+              <i class="fas fa-hand-holding-heart fa-fw me-3"></i
+              ><span>Nasza Fundacja</span></a
+            >
+          </li>
+          <li class="sidenav-item">
+            <a
+              class="sidenav-link"
+              href="https://wolnelektury.pl/info/Kontakt/"
+            >
+              <i class="fas fa-address-card fa-fw me-3"></i
+              ><span>Kontakt</span></a
+            >
+          </li>
+          <li class="sidenav-item">
+            <a
+              class="sidenav-link"
+              href="https://wolnelektury.pl/info/o-projekcie/"
+            >
+              <i class="fas fa-user fa-fw me-3"></i><span>O nas</span></a
+            >
+          </li>
+        </ul>
+      </nav>
+      <!-- Sidenav -->
+
+      <main>
+        <div class="container p-0 mt-5">
+          <div id="row">
+            <div id="col-md-12">
+              <p class="text-center display-1">
+                <span class="text-dcyan"
+                  ><i class="fas fa-book-open"></i> Dashboard</span
+                >
+                lektur
+              </p>
+              <p class="text-center text-muted">
+                <b>
+                  Tytuły, autorzy oraz podstawowe statystyki książek, to
+                  wszystko znajdziesz tutaj!
+                </b>
+              </p>
+            </div>
+          </div>
+          <div
+            id="cards"
+            class="row text-center justify-content-center align-items-center p-0 mt-5 py-5 gap-5 text-gray"
+          >
+            <h1 class="display-6">
+              Autorzy z największą ilością tekstów na stronie:
+            </h1>
+          </div>
+          <div class="row mt-5">
+            <div class="md-col-12">
+              <p class="display-6 text-center text-muted">
+                5 epok, oraz rodzajów w których została napisana największa
+                ilość tekstów:
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-5 mb-2">
+              <div class="card shadow-2 h-100">
+                <div class="card-body d-flex align-items-center">
+                  <canvas id="doughnut-chart"></canvas>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-7 mb-2">
+              <div class="card shadow-2 h-100">
+                <div class="card-body d-flex align-items-center">
+                  <canvas id="chart-bar" height="200"></canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="md-col-12">
+              <p class="display-6 text-center text-muted">
+                Spis tekstów dostępnych na naszej stronie:
+              </p>
+            </div>
+          </div>
+          <div
+            id="datatable"
+            data-mdb-loading="true"
+            class="p-5 mb-5 shadow-2"
+          ></div>
+        </div>
+      </main>
+      <!-- Footer -->
+      <footer class="bg-darkM text-center text-white-50">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!-- Section: Text -->
+          <section class="mb-4">
+            <p>
+              Nasza strona zapewnia ogromnej ilości uczniów darmowy dostęp do
+              lektur.
+            </p>
+          </section>
+          <!-- Section: Text -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div
+          class="text-center p-3"
+          style="background-color: rgba(0, 0, 0, 0.2)"
+        >
+          © 2020 Copyright:
+          <a class="text-dark" href="https://wolnelektury.pl/"
+            >NaszeLektury.pl</a
+          >
+        </div>
+        <!-- Copyright -->
+      </footer>
+    </div>
+    <!-- Footer -->
+    <!-- End your project here-->
+  </body>
+
+  <!-- MDB ESSENTIAL -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- MDB PLUGINS -->
+  <script type="text/javascript" src="plugins/js/all.min.js"></script>
+  <!-- Custom scripts -->
+  <script src="./js/script.js"></script>
+</html>
