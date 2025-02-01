@@ -16,4 +16,12 @@ This project is a Books Dashboard that utilizes the [WolneLektury API](https://w
 - **WolneLektury API**
 - **Chart.js for data visualization**
 
+## API Usage
+The project fetches data from the following endpoints:
+- **Books:** `https://wolnelektury.pl/api/books/`
+- **Authors:** `https://wolnelektury.pl/api/authors/`
+- **Genres:** `https://wolnelektury.pl/api/genres/`
+- **Epochs:** `https://wolnelektury.pl/api/epochs/`
 
+## License
+This project is licensed under the **MIT License**.
